@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira:wght@100;200;300;400;500;600;700;800&display=swap');
 /* RESETS */
 *{ box-sizing: border-box; margin: 0; padding: 0; }
 body { min-height: 100vh; }
@@ -5,3 +6,315 @@ img { max-width: 100%; display: block; }
 /* ------ */
 
 
+.siteWrapper {
+    background-color: #434343;
+}
+
+.siteHeader {
+    background-color: #242424;
+    padding-left: 8%;
+    position: relative;
+    z-index: 1;
+}
+
+.introductionSVG {
+    height: 740px;
+}
+
+/* .svgCard {
+    animation: bounce 2s infinite ease-in-out;
+}
+
+@keyframes bounce {
+    0% { transform: translateY(0) }
+    50% { transform: translateY(-20px) }
+    100% { transform: translateY(0px) }
+} */
+
+.backgroundCards {
+    width: 100%;
+    position: absolute;
+    top: -10%;
+    z-index: 0;
+}
+
+.introductionHeadings h1 {
+    font-family: 'Saira', sans-serif;
+    font-weight: 300;
+    color: #fff;
+    font-size: 3em;
+    margin-top: 1.5em;
+    margin-left: 2.5em;
+    position: relative;
+    z-index: 1;
+}
+
+.introductionReviewer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 15%;
+    margin-top: 4%;
+    position: relative;
+    z-index: 1;
+}
+
+.introductionReviewer p:nth-child(1) {
+    font-size: 1.5em;
+    font-family: 'Saira', sans-serif;
+    color: #fff;
+}
+
+.introductionReviewer p:nth-child(2) {
+    font-size: 1.5em;
+    font-family: 'Saira', sans-serif;
+    font-weight: 300;
+    color: #ECD166;
+    margin-left: 5%;
+    margin-top: 1em;
+}
+
+.introductionPortrait {
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #ECD166;
+    margin-left: 3%;
+}
+
+.introductionColorCards {
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    z-index: 1;
+    margin-top: 150px;
+    padding-bottom: 150px;
+}
+
+.introductionColorCards article {
+    width: 300px;
+    height: 400px;
+    border-radius: 10px;
+}
+
+.colorCard1 {
+    background: linear-gradient(to bottom, #FF922E, #6889FF);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+    .colorCard1div1 {
+        width: 80%;
+        height: 110px;
+        background-color: #fff;
+        border-radius: 10px;
+    }
+
+    .colorCard1div2 {
+        width: 80%;
+        height: 70px;
+        background-color: #fff;
+        border-radius: 10px;
+    }
+
+    .colorCard1wrapper {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+        .colorCard1div3 {
+            width: 37%;
+            height: 100px;
+            background-color: #fff;
+            border-radius: 10px;
+            margin-right: 3%;
+        }
+
+        .colorCard1div4 {
+            width: 37%;
+            height: 100px;
+            background-color: #fff;
+            border-radius: 10px;
+            margin-left: 3%;
+        }
+
+.colorCard2 {
+    background: linear-gradient(to bottom, #40D2AF, #ABC545);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 2em;
+}
+
+    .colorCard2div1 {
+        width: 80%;
+        height: 70px;
+        background-color: #fff;
+        border-radius: 10px;
+    }
+
+    .colorCard2div2 {
+        width: 45%;
+        height: 170px;
+        background-color: #fff;
+        border-radius: 10px;
+    }
+
+    .colorCard2div3 {
+        width: 80%;
+        height: 50px;
+        background-color: #fff;
+        border-radius: 10px;
+    }
+
+.colorCard3 {
+    background: linear-gradient(to bottom, #FF2E2E, #7D68FF);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+    .colorCard3div1 {
+        width: 80%;
+        height: 90px;
+        background-color: #fff;
+        border-radius: 10px;
+    }
+
+    .colorCard3div2 {
+        width: 80%;
+        height: 50px;
+        background-color: #fff;
+        border-radius: 10px;
+    }
+
+    .colorCard3div3 {
+        width: 80%;
+        height: 140px;
+        background-color: #fff;
+        border-radius: 10px;
+    }
+
+
+.reviewSliderWrapper {
+    background-color: #242424;
+    height: 700px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.reviewSliderInner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.reviewSliderPortrait {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 4px solid #C2FF75;
+    object-fit: cover;
+    object-position: top;
+    margin-bottom: 3em;
+}
+
+.reviewSliderWrapper p:nth-child(2) {
+    font-family: 'Saira', sans-serif;
+    font-weight: 300;
+    font-size: 1.5em;
+    color: #fff;
+}
+
+.reviewSliderWrapper p:nth-child(3) {
+    font-family: 'Saira', sans-serif;
+    font-weight: 300;
+    font-size: 1.5em;
+    color: #C2FF75;
+    align-self: flex-start;
+    margin-left: 5%;
+    margin-top: 0.5em;
+}
+
+.reviewSliderButtons {
+    display: flex;
+    margin-top: 4em;
+}
+
+.reviewSliderButtons div {
+    margin: 0 1.4em;
+    width: 27px;
+    height: 27px;
+    border-radius: 50%;
+    background: chartreuse;
+}
+
+.reviewSliderButtons div:nth-child(1) {
+    background-color: #C2FF75;
+}
+.reviewSliderButtons div:nth-child(2) {
+    background-color: #FDFFA0;
+}
+.reviewSliderButtons div:nth-child(3) {
+    background-color: #9DFFED;
+}
+.reviewSliderButtons div:nth-child(4) {
+    background-color: #A9BCFF;
+}
+.reviewSliderButtons div:nth-child(5) {
+    background-color: #F3C2FF;
+}
+.reviewSliderButtons div:nth-child(6) {
+    background-color: #FFA8B8;
+}
+
+.bucketspill {
+    width: 100%;
+    height: 100%;
+}
+
+.bucketContent {
+    width: 100%;
+    position: absolute;
+    bottom: 150px;
+}
+
+footer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #242424;
+    height: 60vh;
+    margin-top: 150px;
+    position: relative;
+    padding-right: 20%;
+}
+
+footer img {
+    position: absolute;
+    top: 10%;
+    left: 5%;
+}
+
+.footerLinks {
+    display: flex;
+}
+
+footer ul {
+    margin: 0 60px;
+}
+
+footer ul li {
+    list-style: none;
+    color: #fff;
+    font-family: 'Saira', sans-serif;
+    font-size: 1.5em;
+}
