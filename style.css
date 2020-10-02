@@ -19,6 +19,7 @@ img { max-width: 100%; display: block; }
 
 .introductionSVG {
     height: 740px;
+    width: 100%;
 }
 
 /* .svgCard {
@@ -47,6 +48,31 @@ img { max-width: 100%; display: block; }
     margin-left: 2.5em;
     position: relative;
     z-index: 1;
+}
+
+.introductionHeadings span {
+    color: rgb(154, 136, 255);
+    filter: hue-rotate(180deg);
+    font-size: 1.05em;
+    animation: color-rotate 10s infinite;
+}
+
+@keyframes color-rotate {
+    0% { filter: hue-rotate(0deg); }
+    100% { filter: hue-rotate(360deg); }
+}
+
+.introductionHeadings button {
+    padding: 10px 30px;
+    background-color: rgb(100, 235, 100);
+    border: none;
+    border-radius: 2px;
+    color: rgb(0, 0, 0);
+    font-family: 'Saira', sans-serif;
+    font-weight: 500;
+    font-size: 1.5em;
+    margin-left: 5.1em;
+    margin-top: .7em;
 }
 
 .introductionReviewer {
